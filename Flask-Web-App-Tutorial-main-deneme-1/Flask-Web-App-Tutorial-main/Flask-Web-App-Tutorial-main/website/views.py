@@ -14,8 +14,7 @@ from sklearn.metrics import accuracy_score
 
 views = Blueprint('views', __name__)
 
-data=pd.read_csv(r"C:\Users\Mahmut Sevimli\Desktop\Flask-Web-App-Tutorial-main\Flask-Web-App-Tutorial-main\website\healthcare-dataset-stroke-data4.csv")
-
+data=pd.read_csv("website/healthcare-dataset-stroke-data4.csv")
 data.head()
 
 kategorik=["gender","hypertension","heart_disease","ever_married","work_type","Residence_type","smoking_status","stroke"]

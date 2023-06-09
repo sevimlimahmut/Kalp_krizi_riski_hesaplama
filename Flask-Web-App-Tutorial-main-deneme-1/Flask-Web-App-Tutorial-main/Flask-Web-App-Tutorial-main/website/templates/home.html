@@ -1,0 +1,132 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  crossorigin="anonymous" />
+
+
+
+<form action="#" method="post">
+  <div class="container " style="background-color: rgb(181, 247, 236);">
+    <div class="row">
+      <div class="col col-sm-12">
+        <div align="center">
+          <h3 style="height: 50px; width: 600px; background-color: rgb(39, 218, 158);" class="mt-5 ms-3">Kalp Krizi
+            Tahmininiz için Tabloyu Doldurunuz</h3><BR></BR>
+        </div <span><strong>Cinsiyetiniz:</strong></span>
+        <select style="width: 550px; color: #000; background-color: rgb(245, 240, 175);"
+          class="btn btn-outline-primary " id="cinsiyet" name="cinsiyet" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option  value="Male">Erkek</option>
+          <option value="Female">Kadın</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong> Yaşınızı giriniz:</strong></span>
+        <input style="width: 530px; height:  40px; color: #000; background-color: rgb(245, 240, 175);" type="number"
+          name="yas" id="yas" required="True" min="0" max="150">
+
+        <br>
+        <br>
+
+        <span><strong>Daha önce hipertansion geçirdiniz mi?</strong></span>
+        <select style="width: 350px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="hipertans" name="hipertans" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="1">Geçirdim</option>
+          <option value="0">Geçirmedim</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong> Daha önce herhangi bir kalp rahatsızlığı geçirdiniz mi?</strong></span>
+        <select style="width: 230px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="galp" name="galp" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="1">Geçirdim</option>
+          <option value="0">Geçirmedim</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong> Daha önce Evlendiniz mi?</strong></span>
+        <select style="width: 446px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="meric" name="meric" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="Yes">Evet</option>
+          <option value="No">Hayır</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong>Çalışma Tipi:</strong></span>
+        <select style="width: 540px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="worktype" name="worktype" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="Private">Özel işde çalışıyorum</option>
+          <option value="Govt_job">Memurum ya da devlete çalışıyorum</option>
+          <option value="Self-employed">Kendi işimi yapıyorum</option>
+          <option value="Never_worked">Çalışmıyorum</option>
+          <option value="children">Çocuğum</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong>Yaşam Alanınız:</strong></span>
+        <select style="width: 520px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="yasam" name="yasam" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="Rural">Köyde yaşıyorum</option>
+          <option value="Urban">Kentte yaşıyorum</option>
+        </select>
+
+        <br>
+        <br>
+
+        <span><strong> Ortalama glikoz oranınız:</strong></span>
+        <input style="width: 446px;height: 40px; color: #000; background-color: rgb(245, 240, 175);" type="text"
+          name="Glikoz" id="Glikoz" required="True" min="25" max="300">
+
+        <br>
+        <br>
+
+        <span><strong>BMI oranınız:</strong></span>
+        <input style="width: 533px;height: 40px; color: #000; background-color: rgb(245, 240, 175);" type="text"
+          name="BMI" id="BMI" required="True" min="10" max="70">
+
+        <br>
+        <br>
+
+        <span><strong> Sigara kullanımınız:</strong></span>
+        <select style="width: 486px; color: #000; background-color: rgb(245, 240, 175);" class="btn btn-outline-primary"
+          id="smoke" name="smoke" required="True">
+          <option value="">Lütfen bir seçim yapın</option>
+          <option value="smokes">Aktif olarak kullanıyorum</option>
+          <option value="formerly smoked">Eskiden Kullanıyordum</option>
+          <option value="never smoked">Hiç kullanmadım</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <div align="center">
+          <button type="submit" class="btn btn-primary" required="True">Kaydı Gönder</button>
+        </div>
+</form><br><br><br><br>
+
+<br>
+</div>
+</div>
+</div>
+
+
+
+
+{% endblock %}
