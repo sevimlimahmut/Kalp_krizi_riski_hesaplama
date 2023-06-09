@@ -3,7 +3,7 @@ Flask-Web-App-Tutorial-main-deneme-1... içerisindeki main.py dosyasını çalı
 .
 .
 
-Hatalar alacak olursanız bunun sebebi bu web sitemizde kullandığımız makine öğrenmesi için gerekli olan datasetimizin bilgisayarımızda bulunma alanının farklı olmasıdır. Aslında bu hatalar bazı bilgisayarlarda sadece geliyor bu yüzden önce yukarıyı deneyiniz.Bunun sebebi bazen bilgisayar datesetinin bilgisayarda tam olarak nerede durduğunu bilmek istiyor. Haydi bunu düzeltelim.
+Hatalar alacak olursanız bunun sebebi bu web sitemizde kullandığımız makine öğrenmesi için gerekli olan datasetimizin bilgisayarımızda bulunma alanının farklı olmasıdır. Aslında bu hatalar sadece bazı bilgisayarlarda  geliyor bu yüzden önce yukarıyı deneyiniz.Bunun sebebi bazen bilgisayar datesetinin bilgisayarda tam olarak nerede durduğunu bilmek istiyor. Haydi bunu düzeltelim.
 .
 .
 hata kısmında gelen bu hatayı bulun:File "c:\Users\Mahmut Sevimli\Desktop\Kalp_krizi_riski_hesaplama-main (2)\Kalp_krizi_riski_hesaplama-main\Flask-Web-App-Tutorial-main\Flask-Web-App-Tutorial-main\website\views.py", 
