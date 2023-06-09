@@ -1,5 +1,9 @@
 Kodları indirdikten ve klasöre ayıkladıktan sonra Visual Studio Code ile açınız.
-Flask-Web-App-Tutorial-main... içerisindeki main.py dosyasını çalıştırınız. Ama hatalar alacaksınız bunun sebebi bu web sitemizde kullandığımız makine öğrenmesi için gerekli olan datasetimizin bilgisayarımızda bulunma alanının farklı olmasıdır.
+Flask-Web-App-Tutorial-main-deneme-1... içerisindeki main.py dosyasını çalıştırınız ve Running on http://127.0.0.1:5000 üzerinden sayfaya erişim şağlayabilirsiniz. 
+.
+.
+
+Hatalar alacak olursanız bunun sebebi bu web sitemizde kullandığımız makine öğrenmesi için gerekli olan datasetimizin bilgisayarımızda bulunma alanının farklı olmasıdır.
 hata kısmında gelen bu hatayı bulun:File "c:\Users\Mahmut Sevimli\Desktop\Kalp_krizi_riski_hesaplama-main (2)\Kalp_krizi_riski_hesaplama-main\Flask-Web-App-Tutorial-main\Flask-Web-App-Tutorial-main\website\views.py", 
 line 17, in <module>data=pd.read_csv(r"C:\Users\Mahmut Sevimli\Desktop\Flask-Web-App-Tutorial-main\Flask-Web-App-Tutorial-main\website\healthcare-dataset-stroke-data4.csv")
 Flask-Web-App-Tutorial-main... içerisindeki ve  website içerisindeki  views.py dosyasını açınız ve bu kodun yazıldığı satırı bulunuz:data=pd.read_csv(r"C:\Users\Mahmut Sevimli\Desktop\Flask-Web-App-Tutorial-main\Flask-Web-App-Tutorial-main\website\healthcare-dataset-stroke-data4.csv")
